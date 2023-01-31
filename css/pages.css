@@ -1,0 +1,136 @@
+body{
+	background-image:url("../images/damso.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+	margin: 0px;
+	padding:0px;
+}
+.page_dinos{
+	background-image:url("../images/dinos.jpg");
+}
+div.page{				/*dédiée à l'affichage du contenu*/
+	width: 60%;
+	margin-right:20%;
+	margin-left:20%;
+	padding-top:0%;
+    min-height:100vh;
+	background-color: #FFFCDC;
+	text-align:center;
+	font-size:1.3rem;
+	color:black;
+	position: top;
+}
+div ol{
+	display:flex;
+	text-align:center;
+	flex-flow: column wrap;
+	list-style-position:inside;
+	
+}
+#initiale{
+	font-size:200%;
+	font-weight:bolder;
+	color:#111;
+}
+h3 {
+	margin: center;
+	color: #111;
+	margin-top:25%;
+	padding-top:5%;
+	font-size: 100px;
+	margin-bottom:2%;
+	font-style:italic;
+}
+h4 {
+	margin:center;
+	color:#111;
+	font-size:40px;
+}	
+img{
+	display: flex;
+	flex-wrap:wrap;
+	margin: 3rem auto 3rem;
+	width: 500px;
+}
+p.texte{
+	text-align:justify;
+	margin:5%;
+}
+div .cover{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem auto 4rem;
+  justify-content:center;
+}
+div .cover img {
+  flex:0,5 0 45%;
+  width: 20rem;
+  height: 20rem;
+  margin:2rem;
+}
+ div.reseaux{
+	 display:flex;
+	 flex-wrap:wrap;
+	 margin: 4rem auto 4rem;
+	 justify-content:center;
+ }
+ div.reseaux img{
+  flex:0,5 0 45%;
+  width: 7rem;
+  height: 7rem;
+  margin:2rem;
+  margin-top:0;
+ }
+ a.logos{
+	max-width:50%;
+	max-height:50%;
+ }
+ table {
+  table-layout: fixed;
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin:auto;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+th, td {
+  padding: 20px;
+}
+thead th{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), #84DFFF);
+  border: 2px solid black;
+}
+.page_oboy{
+	background-image:url("../images/oboy.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+}
+#punchline, caption{ 
+	color: black;
+	font-style:italic;
+	font-weight:bolder;
+	margin:auto;
+}
+#taciturne{
+	max-width:30%;
+	height:auto;	
+}
+caption{
+	font-size:150%;
+	padding-bottom:2%;
+}
+/*zébrures une ligne sur deux*/
+tbody tr:nth-child(odd) {
+  background-color: #FFFCDC;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #84DFFF;
+}

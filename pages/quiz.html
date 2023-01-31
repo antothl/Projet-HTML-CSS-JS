@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/quiz.css">
+	<link rel='stylesheet' href="../css/style.css">
+	<title>Quiz</title>
+	</head>
+<body>
+	<nav class="menu">
+		<ul>
+		<li><a href="../index.html">Accueil</a></li>
+		<li><a href="../pages/damso.html">Damso</a></li>
+		<li><a href="../pages/dinos.html">Dinos</a></li>
+		<li><a href="../pages/oboy.html">Oboy</a></li>
+		<li><a href="../pages/quiz.html">Quiz</a></li>
+		<li><a href="../pages/tp003/tp003.html">TP003</a></li>
+		<li><a href="../pages/newsletter.html">Newsletter</a></li>
+		</ul>
+	</nav>
+   <div class="container">
+    <div id="quiz">
+      <h1><span>L</span>e <span>Q</span>uiz <i class="far fa-question-circle"></i></h1>
+
+      <h2 id="question"></h2>
+        
+      <h3 id="score"></h3>
+
+      <div class="choix">	<!--Réponses aux questions-->
+        <button id="guess0" class="bouton">        
+          <p id="choix0"></p>
+        </button>
+
+        <button id="guess1" class="bouton">
+          <p id="choix1"></p>
+        </button>
+          
+        <button id="guess2" class="bouton">
+          <p id="choix2"></p>
+        </button>
+          
+        <button id="guess3" class="bouton">
+          <p id="choix3"></p>
+        </button>
+      </div>
+
+      <p id="progress"></p> <!--affichage du score-->
+
+    </div>
+  </div>
+  <script src="../javascript/quiz.js"/></script>
+ </body>
+</html>

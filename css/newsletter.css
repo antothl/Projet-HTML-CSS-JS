@@ -1,0 +1,24 @@
+@font-face { font-family: JosefinSlab; src: url('./font/JosefinSlab.ttf'); } 
+body{
+	background-color:#FFFCDC;
+}
+h1{
+	text-align:center;
+	font-family:'JosefinSlab', sans serif;
+	margin-bottom:2%;
+	margin-top:5%;
+	font-size:80px;
+}
+	
+
+.container{
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	
+}
+footer{
+	text-align:center;
+	margin-bottom:0%;
+}
+/*reste du formulaire en bootstrap*/

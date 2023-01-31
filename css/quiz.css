@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin:0;
+}
+
+body{
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+  color: #333;
+}
+body h1 {	/*titre*/
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-style: italic;
+}
+body h1 span, body h1 i {
+  color: #FFCC00;
+}
+body h3 {
+  color: #FFCC00;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+body .container .choix {	/*container pour les réponses*/
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1rem auto 5rem;
+  width: 1000px;
+}
+body .container .choix button { /*boutons pour chaque réponse*/
+  width: 1000px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.4rem;
+  outline: none;
+  background: #84DFFF;
+  user-select: none;
+  font-weight: 600;
+}
+body .container .choix button:hover {	/*changement de couleur*/
+  background: #FFCC00;
+  transition: 0.5s;
+}
+body .container .choix button:active {	/*changement de taille*/
+  transform: scale(0.9);
+  transition: transform 0.5s;
+}
+body .container .choix button p {
+  font-size: 1.3rem;
+}
+body #progress {	/*affichage du numéro de question en cours*/
+  font-size: 2rem;
+  color: #FFCC00;
+}
